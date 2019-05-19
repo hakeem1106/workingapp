@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "next",
+        "dev": "node ssr-server.js",
         "build": "next build",
         "start": "next start"
     },
@@ -12,10 +12,13 @@
     "license": "ISC",
     "dependencies": {
         "@zeit/next-css": "^1.0.1",
+        "body-parser": "^1.19.0",
         "bootstrap": "^4.3.1",
+        "express": "^4.17.0",
         "git": "^0.1.5",
         "jquery": "^3.4.1",
         "lfs": "0.0.4",
+        "mongoose": "^5.5.9",
         "next": "^8.1.0",
         "popper.js": "^1.15.0",
         "react": "^16.8.6",

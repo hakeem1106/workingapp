@@ -6,9 +6,10 @@ import BackLayout from '../components/Layout'
 import '../style.css';
 
 export default class MyApp extends App{
+
     render(){
         return(
-            <div>
+            <div id="backit">
              <div id="formy" className="position-absolute">
 
             <form method="POST" action="/index">
