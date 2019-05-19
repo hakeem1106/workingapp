@@ -1,13 +1,13 @@
 const layoutStyle ={
-    backgroundColor:  'blue'
+    background: "blue"
 }
 
-const Layout = props =>(
-    <div style ={layoutStyle}>
+const BackLayout = props =>(
+    <body style ={layoutStyle}>
 
     {props.children}
-    </div>
+    </body>
 
 )
 
-export default Layout
+export default BackLayout
