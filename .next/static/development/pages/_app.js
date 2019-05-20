@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_app.js"],{
 
 /***/ "./components/Layout.js":
 /*!******************************!*\
@@ -11,7 +11,6 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/workspace/workingapp/components/Layout.js";
 
 var layoutStyle = {
   background: "blue"
@@ -19,12 +18,7 @@ var layoutStyle = {
 
 var BackLayout = function BackLayout(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
-    style: layoutStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
+    style: layoutStyle
   }, props.children);
 };
 
@@ -9738,7 +9732,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/workspace/workingapp/pages/_app.js";
 
 
 
@@ -9761,68 +9754,29 @@ function (_App) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        id: "backit",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        id: "backit"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", null, "DevApp"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1.0"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         id: "formy",
-        className: "position-absolute",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
+        className: "position-absolute"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("form", {
         method: "POST",
-        action: "/index",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
+        action: "../server/routes/index.js"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
         type: "text",
         className: "form-control",
         placeholder: "Username",
-        name: "username",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
+        name: "username"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
         type: "password",
         className: "form-control",
         placeholder: "Password",
-        name: "password",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
+        name: "password"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
         type: "submit",
-        className: "btn btn-primary",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
+        className: "btn btn-primary"
       }, "Submit"))));
     }
   }]);

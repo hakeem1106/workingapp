@@ -505,7 +505,7 @@ var styles = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /workspace/workingapp/node_modules/next/dist/pages/_error.js */"./node_modules/next/dist/pages/_error.js");
+module.exports = __webpack_require__(/*! C:\workingapp\node_modules\next\dist\pages\_error.js */"./node_modules/next/dist/pages/_error.js");
 
 
 /***/ }),
