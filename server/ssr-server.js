@@ -15,7 +15,7 @@ app.prepare()
 .then(() => {
     const server = express()
 
-    server.get('*', (req, res)=>{
+    server.get('/', (req, res)=>{
         return handle(req, res)
     })
 
@@ -23,10 +23,11 @@ app.prepare()
         if (err) throw err
         console.log('> Ready on 3000')
     })
+    server.use(bodyParser.json())
+    server.use(bodyParser.urlencoded({ extended: false }))
 })
 
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: false }))
+
 
 
 .catch((ex) =>{

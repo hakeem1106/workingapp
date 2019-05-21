@@ -8,9 +8,12 @@ router.get('/',(req, res) => {
 });
 
 router.post('/', function(req, res){
-    let userData = new Users(req.body);
+    let userData = new Users({
+        username: req.body.username,
+        password: req.body.password
+    });
     userData.save()
-    .then(item =>{
+    .then(user =>{
         res.status(200).send("I think it worked")
     })
     .catch(err =>{

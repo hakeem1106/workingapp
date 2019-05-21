@@ -10,4 +10,4 @@ const user = mongoose.Schema({
         require: true
     }
 })
-let User = module.exports = mongoose.model('User', user);
+module.exports= Users = mongoose.model('User', user);

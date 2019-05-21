@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "node ssr-server.js",
+        "dev": "node ./server/ssr-server.js",
         "build": "next build",
         "start": "next start"
     },
